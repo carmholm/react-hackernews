@@ -1,0 +1,109 @@
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.errorMessage {
+  font-size: 12px;
+  margin: 0;
+}
+
+.title {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 18px;
+}
+
+.story-list {
+  background-color: #f6f6ef;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.story {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.story-score {
+  display: flex;
+}
+
+.story-score--circle {
+  border-radius: 100%;
+  background-color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 14px;
+  margin-right: 15px;
+}
+
+.story-score--circle p {
+  color: #ff6600;
+  font-size: 14px;
+}
+
+.story-details {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.story-body {
+  margin-bottom: 20px;
+}
+
+.story-title {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.story-author {
+  margin: 0 0 5px;
+  color: #828282;
+  font-size: 10px;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.comment-body {
+  font-size: 12px;
+  margin: 0 0 5px;
+}
+
+.comment-author {
+  font-size: 10px;
+  color: #828282;
+  margin: 0 0 5px;
+}
+
+
+@media (min-width: 768px) {
+  .title {
+    padding: 0 20px;
+    font-size: 20px;
+  }
+
+  .story-list {
+    padding: 20px;
+  }
+
+  .story-title {
+    font-size: 14px;
+  }
+}
