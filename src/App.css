@@ -86,6 +86,10 @@
   margin: 0 0 5px;
 }
 
+.comment-body p {
+  margin: 2px 0;
+}
+
 .comment-author {
   font-size: 10px;
   color: #828282;

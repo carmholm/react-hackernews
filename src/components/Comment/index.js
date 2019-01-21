@@ -1,9 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { createMarkup } from "../../utils"
 
 const Comment = ({ item }) => (
   <div key={item.id} className="comment">
-    <p className="comment-body">{item.text}</p>
+    <div dangerouslySetInnerHTML={createMarkup(item.text)} className="comment-body" />
     <p className="comment-author">{item.by}</p>
   </div>
 )
